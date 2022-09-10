@@ -25,7 +25,7 @@ INSERT INTO public."Student"(id, age, "localDateTime", name, surname, group_id)
 VALUES ('1abcfa1e-bcc1-487e-ab4c-1sss469sf22',20, '2022-09-04 11:04:06.295255', 'Yurii', 'Vasechkin', 'd50e807b-03e3-4382-9c05-3fd1a6616asd');
 
 
-INSERT INTO public.Teacher(id, age, name, surname)
+INSERT INTO public."Teacher"(id, age, name, surname)
 VALUES ('1abcfa1e-bcc1-487e-ab4c-1sss469sf22',55, 'Maxim', 'Mykytov');
 INSERT INTO public."Teacher"(id, age, name, surname)
 VALUES ('1abcfa1e-bcc1-487e-ab4c-1sss469sf23',55, 'Egor', 'Loktev');
@@ -52,4 +52,4 @@ VALUES ('d90cd5c1-f732-4670-ac7c-d28423f33388', 3, '1abcfa1e-bcc1-487e-ab4c-1sss
 INSERT INTO public."Grade"(id, signification, student_id, subject_id)
 VALUES ('d90cd5c1-f732-4670-ac7c-d28423f33389', 4, '1abcfa1e-bcc1-487e-ab4c-1sss469sf22', 'd50e807b-03e3-4382-9c05-3fd1a6616cb3');
 INSERT INTO public."Grade"(id, signification, student_id, subject_id)
-VALUES ('d90cd5c1-f732-4670-ac7c-d28423f33390', 3, '1abcfa1e-bcc1-487e-ab4c-1sss469sf22', 'd50e807b-03e3-4382-9c05-3fd1a6616cb2');
+VALUES ('d90cd5c1-f732-4670-ac7c-d28423f33390', 3, '1abcfa1e-bcc1-487e-ab4c-1sss469sf22', 'd50e807b-03e3-4382-9c05-3fd1a6616cb3');
