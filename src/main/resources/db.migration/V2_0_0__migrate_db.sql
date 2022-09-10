@@ -25,7 +25,7 @@ INSERT INTO public."Student"(id, age, "localDateTime", name, surname, group_id)
 VALUES ('1abcfa1e-bcc1-487e-ab4c-1sss469sf22',20, '2022-09-04 11:04:06.295255', 'Yurii', 'Vasechkin', 'd50e807b-03e3-4382-9c05-3fd1a6616asd');
 
 
-INSERT INTO public."Teacher"(id, age, name, surname)
+INSERT INTO public.Teacher(id, age, name, surname)
 VALUES ('1abcfa1e-bcc1-487e-ab4c-1sss469sf22',55, 'Maxim', 'Mykytov');
 INSERT INTO public."Teacher"(id, age, name, surname)
 VALUES ('1abcfa1e-bcc1-487e-ab4c-1sss469sf23',55, 'Egor', 'Loktev');

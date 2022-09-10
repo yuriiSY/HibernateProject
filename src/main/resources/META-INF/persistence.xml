@@ -7,6 +7,7 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL10Dialect"/>
+            <property name="hibernate.default_schema" value="public"/>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-3-214-2-141.compute-1.amazonaws.com:5432/d3fhh0rsdj93p6"/>
             <property name="javax.persistence.jdbc.user" value="aqichilkdccsob"/>
