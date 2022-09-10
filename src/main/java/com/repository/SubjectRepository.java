@@ -62,14 +62,13 @@ public class SubjectRepository implements CrudRepository<Subject> {
     }
 
     public Map<String,Double> worstSubject() {
-        List<Object[]> list = entityManager.createQuery("SELECT s.id, AVG(g.signification) from Subject s " +
-                "LEFT JOIN Grade g ON s.id = g.subject.id GROUP BY s.id ORDER BY AVG(g.signification) asc").getResultList();
+        List<Object[]> list = entityManager.createQuery("SELECT g.subject.id, avg(g.signification) from Grade g" +
+                " GROUP BY g.subject.id ORDER BY avg(g.signification) asc").getResultList();
         Object[] objects = list.get(0);
         return Map.of((String) objects[0], (Double)objects[1]);
     }
     public Map<String,Double> bestSubject() {
-        List<Object[]> list = entityManager.createQuery("SELECT s.id, AVG(g.signification) from Subject s " +
-                "LEFT JOIN Grade g ON s.id = g.subject.id GROUP BY s.id ORDER BY AVG(g.signification) desc").getResultList();
+        List<Object[]> list = entityManager.createQuery("SELECT g.subject.id, avg(g.signification) from Grade g GROUP BY g.subject.id ORDER BY avg(g.signification) desc").getResultList();
         Object[] objects = list.get(0);
         return Map.of((String) objects[0], (Double)objects[1]);
     }

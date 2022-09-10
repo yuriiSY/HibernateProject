@@ -32,4 +32,14 @@ public class Subject {
     public Subject() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Subject{" +
+                "id='" + id + '\'' +
+                ", code='" + code + '\'' +
+                ", subjectName='" + subjectName + '\'' +
+                ", teacher=" + teacher +
+                '}';
+    }
 }

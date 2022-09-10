@@ -52,4 +52,4 @@ VALUES ('d90cd5c1-f732-4670-ac7c-d28423f33388', 3, '1abcfa1e-bcc1-487e-ab4c-1sss
 INSERT INTO public."Grade"(id, signification, student_id, subject_id)
 VALUES ('d90cd5c1-f732-4670-ac7c-d28423f33389', 4, '1abcfa1e-bcc1-487e-ab4c-1sss469sf22', 'd50e807b-03e3-4382-9c05-3fd1a6616cb3');
 INSERT INTO public."Grade"(id, signification, student_id, subject_id)
-VALUES ('d90cd5c1-f732-4670-ac7c-d28423f33390', 3, '1abcfa1e-bcc1-487e-ab4c-1sss469sf22', 'd50e807b-03e3-4382-9c05-3fd1a6616cb3');
+VALUES ('d90cd5c1-f732-4670-ac7c-d28423f33390', 3, '1abcfa1e-bcc1-487e-ab4c-1sss469sf22', 'd50e807b-03e3-4382-9c05-3fd1a6616cb2');
