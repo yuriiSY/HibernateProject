@@ -96,7 +96,7 @@ public class UserInputUtil {
     public static Group inputDataGroup(List<Student> students) {
         String nameOfGroup;
         Group result = null;
-
+        System.out.println("Group:");
         try {
             System.out.println("Input name: ");
             nameOfGroup = READER.readLine();

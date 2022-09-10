@@ -1,7 +1,7 @@
 package com.repository;
 
 import com.config.HibernateFactoryUtil;
-import com.impl.CrudRepository;
+import com.repository.crudRepository.CrudRepository;
 import com.model.Student;
 
 import javax.persistence.EntityManager;

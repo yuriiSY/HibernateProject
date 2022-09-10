@@ -1,4 +1,4 @@
-package com.impl;
+package com.repository.crudRepository;
 
 import java.util.List;
 import java.util.Optional;
