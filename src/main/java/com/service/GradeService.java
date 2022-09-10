@@ -2,11 +2,12 @@ package com.service;
 
 import com.model.Grade;
 import com.repository.GradeRepository;
+import com.service.crudService.CrudService;
 
 import java.util.List;
 import java.util.Map;
 
-public class GradeService implements CrudService<Grade>{
+public class GradeService implements CrudService<Grade> {
 
 private final GradeRepository gradeRepository;
 

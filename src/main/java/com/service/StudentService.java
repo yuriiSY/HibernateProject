@@ -2,10 +2,11 @@ package com.service;
 
 import com.model.Student;
 import com.repository.StudentRepository;
+import com.service.crudService.CrudService;
 
 import java.util.List;
 
-public class StudentService implements CrudService<Student>{
+public class StudentService implements CrudService<Student> {
     private final StudentRepository studentRepository;
     public StudentService() {
         this.studentRepository = new StudentRepository();

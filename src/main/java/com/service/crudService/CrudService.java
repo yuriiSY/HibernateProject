@@ -1,4 +1,4 @@
-package com.service;
+package com.service.crudService;
 
 import java.util.List;
 

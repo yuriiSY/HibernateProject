@@ -2,10 +2,11 @@ package com.service;
 
 import com.model.Subject;
 import com.repository.SubjectRepository;
+import com.service.crudService.CrudService;
 
 import java.util.List;
 
-public class SubjectService implements CrudService<Subject>{
+public class SubjectService implements CrudService<Subject> {
 
     private final SubjectRepository subjectRepository;
 
