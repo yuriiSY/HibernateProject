@@ -2,6 +2,7 @@ package com.command;
 
 import com.model.Group;
 import com.service.GroupService;
+import com.util.UserInputUtil;
 
 public class FindGroup implements Command{
     private static final GroupService GROUP_SERVICE = new GroupService();

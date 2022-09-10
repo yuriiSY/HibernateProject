@@ -1,6 +1,7 @@
 package com.command;
 
 import com.service.TeacherService;
+import com.util.UserInputUtil;
 
 public class FindTeacher implements Command{
     private static final TeacherService TEACHER_SERVICE = new TeacherService();

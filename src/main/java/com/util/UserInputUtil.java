@@ -1,5 +1,7 @@
-package com.command;
+package com.util;
 
+import com.command.Command;
+import com.command.Commands;
 import com.model.*;
 import com.service.GroupService;
 import com.service.StudentService;
